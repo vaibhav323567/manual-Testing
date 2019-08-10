@@ -1,0 +1,16 @@
+Defect Title: After transaction is done, wrong account balance is displayed
+
+Description:
+	(A) Expected Result: After the money transfer of Rs 3000 from Account Balance of Rs 15000,
+	    it should display the remaining balance = Rs 12000
+	(B) Actual Result: After the money transfer of Rs 3000 from Account Balance of Rs 15000,
+	    it is showing remaining balance = Rs 9000
+	(C) Steps to reproduce defect:
+		1. Open Browser
+		2. Open Bank website
+		3. Login 
+		4. Click on Money Transfer
+		5. Enter beneficiary details
+		6. Enter amount to be transferred
+		7. Enter M-PIN
+		
